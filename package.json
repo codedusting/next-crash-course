@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --experimental-https",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "json-server": "json-server --watch db.json --port 5500",
+    "concurrently": "concurrently \"json-server --watch db.json --port 5500\" \"next dev --experimental-https\""
   },
   "dependencies": {
     "next": "latest",
@@ -19,8 +21,10 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
+    "concurrently": "^8.2.1",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "json-server": "^0.17.4",
     "postcss": "latest",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4",
