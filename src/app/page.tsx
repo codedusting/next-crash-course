@@ -1,8 +1,15 @@
+import { Fragment } from "react";
+import HomeHero from "./hero";
+import HomeAbout from "./about";
+import HomeContact from "./contact";
+
 const Home = () => {
   return (
-    <h1 className="p-2 px-2 text-4xl font-bold">
-      NextJS 13 App Router Crash Course
-    </h1>
+    <Fragment>
+      <HomeHero />
+      <HomeAbout />
+      <HomeContact />
+    </Fragment>
   );
 };
 
