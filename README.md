@@ -52,6 +52,14 @@
 - [x] Image optimisation
 - [x] Lighthouse scores
 
-## A glimpse into accessibility
+## Bonus 1: A glimpse into accessibility
 
 - [x] Voice commands
+
+## Bonus 2: Fixes for deploying in production
+
+- [] Create API Routes for serving users, articles, and messages
+- [] Create Login and Registration system
+- [] Refactor the pages into groups - auth vs public
+- [] Fix the styling for Login, Signup, and Blog modals
+- [] Fix the styling for the blog and message listing page.
