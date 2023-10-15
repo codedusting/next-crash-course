@@ -15,7 +15,7 @@ const ClientMessageForm = () => {
           submitMessage(formData);
         });
       }}
-      className="mx-auto flex w-full max-w-xl flex-col gap-4"
+      className="flex w-full max-w-xl flex-col gap-4"
     >
       <div className="flex flex-col">
         <label htmlFor="name">Name</label>

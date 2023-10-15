@@ -21,8 +21,9 @@
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.6",
     "@tailwindcss/typography": "^0.5.10",
-    "@types/node": "latest",
-    "@types/react": "latest",
+    "@types/dom-speech-recognition": "^0.0.2",
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.24",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
     "concurrently": "^8.2.1",
@@ -32,6 +33,7 @@
     "postcss": "latest",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4",
+    "sharp": "^0.32.6",
     "tailwindcss": "latest",
     "typescript": "latest"
   }

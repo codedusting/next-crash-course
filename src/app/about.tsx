@@ -4,11 +4,13 @@ const HomeAbout = () => {
   return (
     <section
       id="#about"
-      className="flex flex-col items-center justify-center bg-slate-950 py-56 text-slate-50"
+      className="flex flex-col items-center justify-center bg-slate-950 py-12 text-slate-50"
     >
-      <Container classNames="flex flex-col items-center justify-center">
-        <h2 className="mb-8 mt-8 text-6xl  text-slate-50">About Crafter</h2>
-        <div className="flex flex-col gap-4 text-center text-xl text-slate-300">
+      <Container classNames="flex flex-col  justify-center">
+        <h2 className="mb-8 text-4xl  font-semibold tracking-wide text-slate-50">
+          About Crafters
+        </h2>
+        <div className="flex flex-col gap-4 text-lg text-slate-300">
           <p>
             At Crafter, we believe that everyone has a unique talent and passion
             to share with the world. We&apos;re here to help you discover your

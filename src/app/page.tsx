@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import HomeHero from "./hero";
 import HomeAbout from "./about";
 import HomeContact from "./contact";
+import SpeechClient from "./speechClient";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <HomeHero />
       <HomeAbout />
       <HomeContact />
+      <SpeechClient />
     </Fragment>
   );
 };

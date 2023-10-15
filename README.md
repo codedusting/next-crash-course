@@ -2,37 +2,56 @@
 
 ## Routing
 
-1. Defining Routes:
-   ```
-   https://localhost:3000/dashboard/profile
-   ```
-2. Pages and Layouts:
-   1. Pages: .js, .jsx, .tsx only
-   2. Layouts: Simple and shared.
-   3. Data Flows between layouts: Page -> Layout, Profile Page -> Profile Layout -> Dashboard Layout -> Root Layout
-   4. React Server Components
-3. Linking and Navigations:
-   1. Link from next/link
-   2. #routes -> same page scrolling
-   3. prefetching in production
-   4. data caching by default
-   5. showcase the active link
-   6. import { usePathname, useRouter, useSearchParams } from "next/navigation";
-4. Route Groups
-5. Dynamic Routes
-6. Loading UI and Streaming
-7. Error Handling
-8. Parallel Routes
-9. Intercepting Routes
-10. Route Handlers
-11. Middleware
+- [x] Defining Routes:
+
+  ```
+  https://localhost:3000/dashboard/profile
+  ```
+
+- [x] **Pages and Layouts:**
+
+  - [x] **Pages:** .js, .jsx, .tsx only
+  - [x] **Layouts:** Simple and shared.
+  - [x] **Data Flows between layouts:** Page -> Layout, Profile Page -> Profile Layout -> Dashboard Layout -> Root Layout
+  - [x] **React Server Components**
+
+- [x] Linking and Navigations:
+  - [x] Link from next/link
+  - [x] #routes -> same page scrolling
+  - [x] prefetching in production
+  - [x] data caching by default
+  - [x] showcase the active link
+  - [x] import { usePathname, useRouter, useSearchParams } from "next/navigation";
+- [x] Route Groups
+- [x] Dynamic Routes
+- [x] Loading UI
+- [x] Streaming
+- [x] Error Handling
+- [x] Parallel Routes
+- [x] Intercepting Routes
+- [x] Route Handlers
+- [x] Middleware
 
 ## Data Fetching
 
-1. Revalidating
-2. Server Actions
-3. useTransition(), useOptimistic(), etc.
+- [x] Revalidating: revalidateTag, revalidatePath
+- [x] Server Actions
+- [x] useTransition()
+- [x] useOptimistic()
 
 ## Metadata API
 
+- [x] Static metadata
+- [x] Dynamic metadata
+- [x] Canonical URLs
+- [x] Robots.txt
+- [x] Sitemap Generation
+
 ## Optimisation
+
+- [x] Image optimisation
+- [x] Lighthouse scores
+
+## A glimpse into accessibility
+
+- [x] Voice commands

@@ -1,11 +1,16 @@
 import type { ReactNode } from "react";
-import DashboardSidebar from "./sidebar";
 
-const DashboardLayout = ({ children }: { children: ReactNode }) => {
+const DashboardLayout = ({
+  blogs,
+  profile,
+}: {
+  blogs: ReactNode;
+  profile: ReactNode;
+}) => {
   return (
-    <div className="border-4 border-green-700">
-      <DashboardSidebar />
-      {children}
+    <div className="flex items-start justify-between">
+      {blogs}
+      {profile}
     </div>
   );
 };
